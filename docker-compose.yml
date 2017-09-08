@@ -1,0 +1,27 @@
+ckan:
+  container_name: ckan
+  build: .
+  links:
+      - db
+      - solr
+      - redis
+  ports:
+      - "80:5000"
+  volumes:
+      - ./src:/usr/lib/ckan/default/src/plugins/
+  environment:
+      - DB_PORT_5432_TCP_ADDR=db
+      - SOLR_PORT_8983_TCP_ADDR=solr
+      - REDIS_PORT_6379_TCP_ADDR=redis
+
+db:
+  container_name: db
+  build: postgresql/
+
+solr:
+  container_name: solr
+  image: ckan/solr:latest
+
+redis:
+  container_name: redis
+  image: redis:latest

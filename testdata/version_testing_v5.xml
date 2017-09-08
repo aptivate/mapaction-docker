@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mapdoc>
+  <mapdata>
+    <versionNumber>5</versionNumber>
+    <mapNumber>MA123</mapNumber>
+    <operationID>versiontesting</operationID>
+    <sourceorg>MapAction</sourceorg>
+    <title>Test multiple version map (as of 5 Jan 2016)</title>
+    <ref>version_testing_v5</ref>
+    <language>English</language>
+    <countries>UNITED KINGDOM</countries>
+    <createdate>2016-05-24 12:46:38</createdate>
+    <createtime>00:46</createtime>
+    <status>Update</status>
+    <xmax>88.61</xmax>
+    <xmin>79.65</xmin>
+    <ymax>30.77</ymax>
+    <ymin>26.02</ymin>
+    <proj></proj>
+    <datum>WGS 1984</datum>
+    <jpgfilename>version_testing_v5-300dpi.jpeg</jpgfilename>
+    <pdffilename>version_testing_v5-300dpi.pdf</pdffilename>
+    <qclevel></qclevel>
+    <qcname></qcname>
+    <access></access>
+    <glideno>eq-2016-123456-gbr</glideno>
+    <summary>Version 5 of this map </summary>
+    <imagerydate></imagerydate>
+    <datasource>Situational data: 
+Boundaries: 
+Settlements: 
+Physical features: 
+
+&lt;ITA&gt;add data sources here (concise list)&lt;/ITA&gt;</datasource>
+    <location></location>
+    <theme>Who-What-Where</theme>
+    <scale>1: 2,490,037</scale>
+    <papersize>A3</papersize>
+    <jpgfilesize>575565</jpgfilesize>
+    <jpgresolutiondpi>300</jpgresolutiondpi>
+    <pdffilesize>335265</pdffilesize>
+    <pdfresolutiondpi>300</pdfresolutiondpi>
+    <kmlresolutiondpi>50</kmlresolutiondpi>
+    <mxdfilename>version_testing_v5</mxdfilename>
+    <paperxmax></paperxmax>
+    <paperxmin></paperxmin>
+    <paperymax></paperymax>
+    <paperymin></paperymin>
+    <kmzfilename>version_testing_v5.kmz</kmzfilename>
+    <accessnotes></accessnotes>
+  </mapdata>
+</mapdoc>

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+SRCDIR=./src
+
+if [ -d $SRCDIR ]
+then
+  echo "----------------------------------------"
+  echo "You've already got those plugins cloned!"
+  echo "----------------------------------------"
+  exit
+fi
+
+declare -a repos=(
+                  "git@github.com:aptivate/ckanext-mapactiontheme.git"
+                  "git@github.com:aptivate/ckanext-mapactionimporter.git"
+                  "git@github.com:aptivate/ckanext-mapactionevent.git"
+                  "git@github.com:aptivate/ckanext-mapactiongeorss.git"
+                  "git@github.com:aptivate/ckanext-googleauth.git"
+                  "git@github.com:aptivate/ckanext-userautoadd.git"
+                  "git@github.com:aptivate/ckanext-datasetversions.git"
+                 )
+
+mkdir -p $SRCDIR
+
+for repo in "${repos[@]}"
+do
+  name=$(basename "$repo" .git)
+  git clone "$repo" $SRCDIR/"$name"
+done
