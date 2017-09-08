@@ -11,7 +11,12 @@ It's a CKAN deployment with all Aptivate's [mapaction plugins] installed and som
 
 # Hack It
 
-To get started, get a local copy:
+Firstly, install [docker] and [docker-compose].
+
+[docker]: https://www.docker.com/
+[docker-compose]: https://docs.docker.com/compose/
+
+Then get a local copy:
 
 ``` bash
 $ git clone git@github.com:aptivate/mapaction-docker.git
@@ -19,7 +24,6 @@ $ git clone git@github.com:aptivate/mapaction-docker.git
 
 Then, setup a virtualenv and get [docker-compose] installed:
 
-[docker-compose]: https://docs.docker.com/compose/
 
 ``` bash
 $ python3 -m venv .venv
