@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aptivate/mapaction-docker.svg)](https://travis-ci.org/aptivate/mapaction-docker)
+
 # mapaction-docker
 
 A docker managed [Map Action] deployment.
