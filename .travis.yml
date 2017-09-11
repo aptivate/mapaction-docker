@@ -5,7 +5,11 @@ language: generic
 services:
   - docker
 
+before_script:
+  - sudo apt-get install -y git
+
 script:
+  - ./cloner
   - docker-compose up -d
 
 notifications:
