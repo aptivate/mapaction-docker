@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SRCDIR=./src
+SRCDIR=./plugins
 
 if [ -d $SRCDIR ]
 then
@@ -18,9 +18,12 @@ declare -a repos=(
                   "git@github.com:aptivate/ckanext-googleauth.git"
                   "git@github.com:aptivate/ckanext-userautoadd.git"
                   "git@github.com:aptivate/ckanext-datasetversions.git"
+                  "git@github.com:aptivate/ckanext-datasetthumbnail.git"
                  )
 
 mkdir -p $SRCDIR
+
+echo "Cloning all Aptivate plugins into $SRCDIR ..."
 
 for repo in "${repos[@]}"
 do
