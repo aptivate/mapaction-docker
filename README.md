@@ -48,7 +48,7 @@ You'll need to hit the following URLs and create some test data:
     * The `operationID` should be `versiontesting`
 
 ### Create Tag Vocabularies
-  * TODO
+  * WIP: https://github.com/aptivate/ckanext-mapactionimporter/issues/2
 
 ### Import Data Set
   * [http://localhost:5000/import_mapactionzip](http://localhost:5000/import_mapactionzip)
