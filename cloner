@@ -11,14 +11,14 @@ then
 fi
 
 declare -a repos=(
-                  "git@github.com:aptivate/ckanext-mapactiontheme.git"
-                  "git@github.com:aptivate/ckanext-mapactionimporter.git"
-                  "git@github.com:aptivate/ckanext-mapactionevent.git"
-                  "git@github.com:aptivate/ckanext-mapactiongeorss.git"
-                  "git@github.com:aptivate/ckanext-googleauth.git"
-                  "git@github.com:aptivate/ckanext-userautoadd.git"
-                  "git@github.com:aptivate/ckanext-datasetversions.git"
-                  "git@github.com:aptivate/ckanext-datasetthumbnail.git"
+                  "https://github.com/aptivate/ckanext-mapactiontheme.git"
+                  "https://github.com/aptivate/ckanext-mapactionimporter.git"
+                  "https://github.com/aptivate/ckanext-mapactionevent.git"
+                  "https://github.com/aptivate/ckanext-mapactiongeorss.git"
+                  "https://github.com/aptivate/ckanext-googleauth.git"
+                  "https://github.com/aptivate/ckanext-userautoadd.git"
+                  "https://github.com/aptivate/ckanext-datasetversions.git"
+                  "https://github.com/aptivate/ckanext-datasetthumbnail.git"
                  )
 
 mkdir -p $SRCDIR
