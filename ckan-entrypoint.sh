@@ -109,9 +109,9 @@ done
 echo "Initializing the database now ..."
 ckan-paster --plugin=ckan db init -c "${CKAN_CONFIG}/ckan.ini"
 
-echo "Conditionally creating the system administrator account now ..."
 if [[ ! $(ckan-paster --plugin=ckan user list -c "${CKAN_CONFIG}/ckan.ini") =~ admin ]]
 then
+  echo "Creating the system administrator account now ..."
   args="email=admin@aptivate.org apikey=apikey password=password"
   ckan-paster --plugin=ckan user add admin $args -c "${CKAN_CONFIG}/ckan.ini"
   ckan-paster --plugin=ckan sysadmin add admin $args -c "${CKAN_CONFIG}/ckan.ini"
