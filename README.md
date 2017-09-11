@@ -76,7 +76,7 @@ $ docker rm -f ckan && docker-compose up -d --no-deps --build ckan
 
 # Working With The Plugins
 
-All plugins are mounted into the container from the `./src` directory,
+All plugins are mounted into the container from the `./plugins` directory,
 installed in the `ckan` virtual environment (with the `--editable` flag) and
 any file edits on the host machine will result in the paster server live
 reloading. Happy Hacking.
