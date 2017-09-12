@@ -53,6 +53,7 @@ You'll need to hit the following URLs and create some test data:
 ### Import Data Set
   * [http://localhost:5000/import_mapactionzip](http://localhost:5000/import_mapactionzip)
     * Import the zip file from `testdata/version_testing_v5.zip`.
+    * Also an issue, please see https://github.com/aptivate/ckanext-mapactionimporter/issues/3.
 
 # Working With CKAN
 
