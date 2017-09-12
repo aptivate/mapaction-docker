@@ -4,7 +4,10 @@
 
 A docker managed [Map Action] deployment.
 
+Please see the [Redmine project page] for more details.
+
 [Map Action]: https://mapaction.org/
+[Redmine project page]: https://projects.aptivate.org/projects/mapactionrepo/wiki
 
 # Get Started
 
