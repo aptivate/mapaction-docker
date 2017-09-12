@@ -82,3 +82,11 @@ All plugins are mounted into the container from the `./plugins` directory,
 installed in the `ckan` virtual environment (with the `--editable` flag) and
 any file edits on the host machine will result in the paster server live
 reloading. Happy Hacking.
+
+You can run the tests by doing the following (inside the CKAN container):
+
+```
+$ source $CKAN_HOME/bin/activate
+$ cd $CKAN_HOME/src/plugins/<your-plugin>
+$ nosetests --with-pylons=$CKAN_TEST_INI --nologcapture -x
+```
